@@ -11,6 +11,12 @@ Gráficamente:
 ![ValidacionProductosSatelitales](assets/img/ValidacionProductosSatelitales-Page-2.jpg "Diagrama del proceso.")
 
 
+Tutorial en Youtube https://youtu.be/ahAXtQ2xT8s :
+
+[![Tutorial Youtube https://youtu.be/ahAXtQ2xT8s ](https://img.youtube.com/vi/ahAXtQ2xT8s/0.jpg)](https://www.youtube.com/watch?v=ahAXtQ2xT8s)
+
+
+
 ## Instalación de dependencias
 Instalamos las librerias dependientes desde requirements.txt
 
