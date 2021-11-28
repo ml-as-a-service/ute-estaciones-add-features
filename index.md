@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Estaciones Hidrometeorológicas agregar Altitud
+Anexaremos la altitud como una feature al dataset obtenido en el proyecto https://ml-as-a-service.github.io/ute-estaciones-geoloc/. Dicha informacion esta disponible a traves del  Shuttle Radar Topography Mission (SRTM) que provee la elevacion de acuerdo a la latitud y longitud determinada. 
 
-You can use the [editor on GitHub](https://github.com/ml-as-a-service/ute-estaciones-features/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Mas informacion en https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1-arc?qt-science_center_objects=0#qt-science_center_objects 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Gráficamente:
 
-# Header 1
-## Header 2
-### Header 3
+![ValidacionProductosSatelitales](assets/img/ValidacionProductosSatelitales-Page-2.jpg "Diagrama del proceso.")
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Instalación de dependencias
+Instalamos las librerias dependientes desde requirements.txt
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+pip3 install -r requirements.txt
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Ejecutar
+Al ejecutar el comando 
 
-### Jekyll Themes
+```bash
+python run.py
+```
+Se procederá a:
+ - crear la estructura de directorios
+ - descargar el archivo fuente en la carpeta tmp/download
+ - exportar la información con las altitudes de las estaciones que se encuentran en el archivo a csv, el mismo se guardara en la carpeta data/
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ml-as-a-service/ute-estaciones-features/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+# Fix de Performance
+En nuestro caso realizaremos un fix de performance para la consulta de grandes volumenes de geolocalizaciones. Para ellos bajaremos los archivos desde la pagina http://viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Seleccionaremos los cuadrantes para uruguay en nuestro caso 'SG21','SG22',   'SH21','SH22',  'SI21','SI22'y  'SJ21'. Estos nos permitira realizar las consultas sin ser bloqueados por el servidor de STRM.
