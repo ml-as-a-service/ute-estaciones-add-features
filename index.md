@@ -1,7 +1,7 @@
 # Estaciones Hidrometeorológicas agregar Altitud
-Anexaremos la altitud como una feature al dataset obtenido en el proyecto https://ml-as-a-service.github.io/ute-estaciones-geoloc/. Dicha informacion esta disponible a traves del  Shuttle Radar Topography Mission (SRTM) que provee la elevacion de acuerdo a la latitud y longitud determinada. 
+Anexaremos la altitud como una feature al dataset obtenido en el proyecto [ute-estaciones-geoloc](https://ml-as-a-service.github.io/ute-estaciones-geoloc/). Dicha informacion esta disponible a traves del  Shuttle Radar Topography Mission (SRTM) que provee la elevacion de acuerdo a la latitud y longitud determinada. 
 
-Mas informacion en https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1-arc?qt-science_center_objects=0#qt-science_center_objects 
+Mas informacion en [https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1-arc](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1-arc?qt-science_center_objects=0#qt-science_center_objects)
 
 
 
