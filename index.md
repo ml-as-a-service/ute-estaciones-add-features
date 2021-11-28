@@ -31,6 +31,6 @@ Se procederá a:
 
 
 # Fix de Performance
-En nuestro caso realizaremos un fix de performance para la consulta de grandes volumenes de geolocalizaciones. Para ellos bajaremos los archivos desde la pagina http://viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm
+En nuestro caso realizaremos un fix de performance para la consulta de grandes volumenes de geolocalizaciones. Para ellos bajaremos los archivos desde la pagina [http://viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm](http://viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm)
 
 Seleccionaremos los cuadrantes para uruguay en nuestro caso 'SG21','SG22',   'SH21','SH22',  'SI21','SI22'y  'SJ21'. Estos nos permitira realizar las consultas sin ser bloqueados por el servidor de STRM.
