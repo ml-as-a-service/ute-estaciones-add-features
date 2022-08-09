@@ -9,7 +9,7 @@ Para lo cual utilizaremos los paquetes:
 
 Gráficamente:
 
-![ValidacionProductosSatelitales](assets/img/ValidacionProductosSatelitales.jpg "Diagrama del proceso.")
+![ValidacionProductosSatelitales](assets/img/ValidacionProductosSatelitales-Page-2.jpg "Diagrama del proceso.")
 
 Tutorial en Youtube:
 
