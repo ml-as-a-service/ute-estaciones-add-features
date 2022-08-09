@@ -16,4 +16,4 @@ estaciones = fx.addAltitud(file_path)
 # Exportamos las estaciones a CSV utilizando pandas
 file_name_csv = "MapaEstHid_Altitud.csv"
 file_path_csv = fx.dir_data+file_name_csv
-fx.exportToCsv(estaciones, file_path_csv)
+fx.export_to_csv(estaciones, file_path_csv)
