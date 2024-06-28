@@ -12,6 +12,8 @@ Gráficamente:
 
 
 
+Tutorial en Youtube https://www.youtube.com/watch?v=ahAXtQ2xT8s 
+
 ## Instalación de dependencias
 Instalamos las librerias dependientes desde requirements.txt
 
